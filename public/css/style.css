@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Kode Mono", monospace;
+  }
+  
+  .nav-link  {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: 650;
+    
+    
+  }
+
+  .nav link:hover{
+    color: black;
+  }
+  
+
+  .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid red;
+  }
+
+  .btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+  }
+
+  .main{
+    
+    background: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+   
+  }
+
+  .main h1{
+    font-size: 3rem;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+
+  .btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+
+  }
