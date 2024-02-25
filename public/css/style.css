@@ -8,6 +8,7 @@
     font-size: 2rem;
     color: black;
     font-family: "Kode Mono", monospace;
+    font-weight: 700;
   }
   
   .nav-link  {
@@ -66,7 +67,7 @@
 
   .btn1{
     height: 45px;
-    width: 35%;
+    width: 25%;
     border: none;
     outline: none;
     background-color: red;
@@ -75,4 +76,19 @@
     border-radius: 60px;
 
 
+  }
+
+  .btn1:hover{
+    /* change the effect of button with click */
+    background-color: black;
+    transition: 0.5s; 
+  }
+
+  h1{
+    font-weight: 700 ;
+  }
+
+  .card:hover{
+    -webkit-box-shadow: 2px 5px 15px 5px rgba(0,0,0,0.45); 
+box-shadow: 2px 5px 15px 5px rgba(0,0,0,0.45);
   }
